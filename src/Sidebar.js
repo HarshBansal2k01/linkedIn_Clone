@@ -39,15 +39,14 @@ function Sidebar() {
           <p>Who viewed your post</p>
           <p className="sidebar__statNumber">2,455</p>
         </div>
-        </div>
-        <div className="sidebar__bottom">
-          <p>Recent</p>
-          {recentItem("reactjs")}
-          {recentItem("programming")}
-          {recentItem("softwareengineering")}
-          {recentItem("design")}
-          {recentItem("developer")}
-        
+      </div>
+      <div className="sidebar__bottom">
+        <p>Recent</p>
+        {recentItem("reactjs")}
+        {recentItem("programming")}
+        {recentItem("softwareengineering")}
+        {recentItem("design")}
+        {recentItem("developer")}
       </div>
     </div>
   );
